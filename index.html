@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRAK0NN Team - Киберспортивная организация</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Orbitron:wght@400;700&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            scroll-behavior: smooth;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            line-height: 1.6;
+        }
+
+        h1, h2 {
+            font-family: 'Orbitron', sans-serif;
+            color: #58a6ff;
+        }
+
+        p {
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        .highlight {
+            color: #58a6ff;
+            font-weight: bold;
+        }
+
+        em {
+            font-style: italic;
+            color: #f78166;
+        }
+
+        strong {
+            font-weight: bold;
+            color: #c9d1d9;
+        }
+
+        .section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #section1 {
+            background: url('https://via.placeholder.com/1920x1080/0d1117/161b22?text=DRAK0NN+Team') no-repeat center center/cover;
+            color: #ffffff;
+        }
+
+        #section2 {
+            background: #161b22;
+        }
+
+        #section3 {
+            background: #21262d;
+        }
+
+        #section4 {
+            background: #0d1117;
+        }
+
+        #section5 {
+            background: #161b22;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(13, 17, 23, 0.8);
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #c9d1d9;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            border: 1px solid #c9d1d9;
+            border-radius: 5px;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background: #c9d1d9;
+            color: #0d1117;
+        }
+
+        .button {
+            background: #c9d1d9;
+            color: #0d1117;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .button:hover {
+            background: #0d1117;
+            color: #c9d1d9;
+        }
+
+        .card {
+            background: #161b22;
+            color: #c9d1d9;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+            max-width: 300px;
+            text-align: left;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .cards-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#section1">Главная</a>
+        <a href="#section2">О нас</a>
+        <a href="#section3">Команды</a>
+        <a href="#section4">Достижения</a>
+        <a href="#section5">Контакты</a>
+    </nav>
+
+    <div id="section1" class="section">
+        <div>
+            <h1>Добро пожаловать в <span class="highlight">DRAK0NN Team</span></h1>
+            <p><em>Мы воплощаем мощь киберспорта и стремимся к величию.</em></p>
+            <a href="#section2" class="button">Узнать больше</a>
+        </div>
+    </div>
+
+    <div id="section2" class="section">
+        <div>
+            <h2>О нашей команде</h2>
+            <p><strong>DRAK0NN Team</strong> — это ведущая киберспортивная организация, объединяющая лучших игроков и страстных фанатов. Мы участвуем в самых <span class="highlight">престижных турнирах</span> и создаем уникальные события в мире киберспорта. 
+            Наша миссия — <em>вдохновлять новое поколение геймеров</em>, предоставляя платформу для раскрытия их потенциала.</p>
+            <p>Основанная группой энтузиастов, наша команда быстро стала синонимом <span class="highlight">успеха</span> в таких играх, как <strong>Valorant</strong>, <strong>League of Legends</strong> и <strong>CS:GO</strong>. Мы гордимся нашим профессионализмом и стремлением к победе.</p>
+        </div>
+    </div>
+
+    <div id="section3" class="section">
+        <div>
+            <h2>Наши команды</h2>
+            <p>Мы гордимся нашими игровыми составами, которые показывают высочайшие результаты на мировой арене. Каждая команда — это сочетание <em>таланта</em>, <strong>стратегии</strong> и силы духа.</p>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300/21262d/ffffff?text=Valorant+Team" alt="Valorant Team">
+                    <h3>Valorant Team</h3>
+                    <p>Лучшие в <em>тактических шутерах</em>, наша команда демонстрирует невероятную <strong>скорость</strong> и точность в игре.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/300/21262d/ffffff?text=League+of+Legends+Team" alt="League of Legends Team">
+                    <h3>League of Legends Team</h3>
+                    <p>Стратегия и <em>командная работа</em> делают наших игроков мастерами <span class="highlight">Полей Правосудия</span>.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/300/21262d/ffffff?text=CS:GO+Team" alt="CS:GO Team">
+                    <h3>CS:GO Team</h3>
+                    <p><strong>Легенды шутеров</strong>, они известны своей точностью и холоднокровием в любой ситуации.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section4" class="section">
+        <div>
+            <h2>Наши достижения</h2>
+            <p><strong>DRAK0NN Team</strong> гордится своими достижениями. Мы стали чемпионами в <span class="highlight">крупнейших турнирах</span> и установили <em>рекорды</em>, которые вдохновляют тысячи игроков. 
+            За последние несколько лет мы заработали десятки трофеев и получили признание как одна из <strong>лучших киберспортивных организаций мира</strong>.</p>
+            <p>Наша цель — не останавливаться на достигнутом. Мы стремимся к <em>новым вершинам</em> и готовы к любым вызовам, которые встретятся на нашем пути.</p>
+        </div>
